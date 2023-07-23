@@ -3,7 +3,7 @@ Code and Explanation for an Arduino Beginner Summer Camp
 
 Learn more about each project on my [youtube channel](https://www.youtube.com/channel/UCszrNeQ_xBV6YQfvcIs6uVA).
 
-## Board Creation
+## 1. Board Creation
 The Acrylic Board which housed all the componenets were created by me. The components on the board include:
 * Arduino Uno R3
 * Grove Base Shield
@@ -20,7 +20,7 @@ The Acrylic Board which housed all the componenets were created by me. The compo
 
 The majority of these parts are attached to the board via standoffs, screws, and nuts. I drilled holes onto the acrylic board based on an outline I created from a python script. The Water Sensor, Breadboard, and 9V Battery are the only parts not connected via standoffs. The Ultrasonic Ranger is attached using a seperate acrylic board installed perpendicular to make it easier for the students to test out said sensor. 
 
-## Basic Circuits
+## 2. Basic Circuits
 I started the camp by teaching the students circuit basics:
 *Turning ON and LED on the Breadboard
 *Using a potentiometer to change the brightness of the LED
@@ -30,10 +30,10 @@ We also installed the Lamp. We used a 3V battery holder with switch to turn the 
 
 Learn more about these basics in [this video](https://www.youtube.com/watch?v=bQS-vkHR7F8&)
 
-## Basic Circuits with Arduino
+## 3. Basic Circuits with Arduino
 The following programs were used to teach the students the basics of working with the Arduino. Before we got started, we also discussed more about how the Arduino works and the parts of the Arduino such as the ATMega 328P Chip, Digital Headers, Analog Headerrs, Power Headers, USB Socket, Power Jack, the Printed Circuit Board (PCB) and more. I also provided an [Arduino Function Cheatsheet](https://docs.google.com/document/d/1QYzo4wBym-xJpfdnLt6h2N2m4J6qdlCz4fPCTWNhXuQ/edit?usp=sharing) to help the students out with programming.
 
-### Blink
+### a). Blink
 The students created a program to blink the LED ON and OFF. The students learned about the following functions:
 * setup(): Called when the program first starts. “Setup” variables, pin modes, libraries, etc. This function only runs once.
 * loop(): Occurs after setup function. Code inside here will run forever.
@@ -41,26 +41,26 @@ The students created a program to blink the LED ON and OFF. The students learned
 * digitalWrite(pin, value): Writes a HIGH or LOW value to a digital pin.
 * delay(ms): Wait for amount of milliseconds specified (Note: tone function runs concurrently).
 
-### POT
+### b). POT
 The students learned how to control and LED using a Potentiometer. T he students learned about the following new functions:
 * analogRead(pin): Read the value of analog pin (A0, A1, etc.). Value will be from 0-1023
 * analogWrite(pin, value): Writes an analog value to a pin. This value should be between 0 and 255.
 
 We also discussed PWM Pins. Learn more about PWM Pins in [this video](https://www.youtube.com/watch?v=s4Tgw_W7Zdg)
 
-### Button
-The students used a Button to turn an LED ON and OFF
+### c). Button
+The students used a Button with a pull up resistor to turn an LED ON and OFF. 
 
-## Piano
+## 4. Piano
 The following were used to teach the students how to use a buzzer to emit noises similar to a piano in different projects.
 
-### 5 Button Piano
+### a). 5 Button Piano
 In this project, the students created a mini-piano using the buzzer and 5 buttons installed on the breadboard. Learn more about this project in [this video](https://www.youtube.com/watch?v=qt-YgZJz8uY)
 
-### Auto Piano
+### b). Auto Piano
 In this project, the students set the buzzer up such that it played "Twinkle Twinkle Little Stars" on its own at a tempo that can be changed using the potentiometer. Learn more about this project in [this video](https://www.youtube.com/watch?v=qt-YgZJz8uY)zz
 
-### Metronome
+## 5. Metronome
 In this project, the students created a metronome. A metronome is used in musical practice as a way to keep the beat, or tempo. An image of a metronome is shown below.
 
 ![alt text](https://images.squarespace-cdn.com/content/v1/5a04b91b914e6b6222be0e26/1551373680221-G9ZWBOR9HGR3H1162KW7/Seiko-Quartz-Metronome.jpg?format=400w)
@@ -75,15 +75,15 @@ The students will use the following components to create the metronome:
 
 We created this metronome to mimic the one in the image: therefore the BPM will range from 40 BPM to 208 BPM.
 
-## Ultrasonic Ranger Projects
+## 6. Ultrasonic Ranger Projects
 The following 2 projects were created using the Ultrasonic Ranger. The Ultrasonic Ranger can return a distance in centimeters or inches, and we can do different things with this information.
 
-### Range Finder
+### a). Range Finder
 A range finder is commonly used in golf to determine how far away the hole is. This helps one determine which club to use. The students created a simple range finder using the following parts:
 * Ultrasonic Ranger: Returned distance to nearest obstacle
 * OLED Display: Prints out this value
 
-### Collision Alert
+### b). Collision Alert
 Modernn cars have different ways to detect if the car will be involved in a collision. We will be implmeneting a simple Collision Alert in this program using the Ultrasonic Sensor. We will use the following parts:
 * Ultrasonic Ranger: Returns distance to nearest obstacle
 * OLED Display: Displays an alert: Clear, Caution, Danger, Critical

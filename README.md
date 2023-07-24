@@ -20,7 +20,17 @@ The Acrylic Board which housed all the componenets were created by me. The compo
 
 The majority of these parts are attached to the board via standoffs, screws, and nuts. I drilled holes onto the acrylic board based on an outline I created from a python script. The Water Sensor, Breadboard, and 9V Battery are the only parts not connected via standoffs. The Ultrasonic Ranger is attached using a seperate acrylic board installed perpendicular to make it easier for the students to test out said sensor. 
 
-## 2. Basic Circuits
+<img src="./Acrylic_Board.jpg" width="480" alt="Image of Acrylic Board" />
+
+## 2. Grove Shield
+
+To make wiring these different circuits less complicated for the students and easier to debug in the case of error, all students mounted the Grove Shield on top of the Arduino. This made connecting all the grove parts much easier. To connect to the grove shield, insert the grove cable (which contains all 4 wires needed) into both the component and the grove shield.
+
+The Grove Shield is pictured below.
+
+![alt text](https://seeeddoc.github.io/Grove-Base_shield_v2/img/Base_Shield_v2-1.png?format=400w)
+
+## 3. Basic Circuits
 I started the camp by teaching the students circuit basics:
 * Turning ON and LED on the Breadboard
 * Using a potentiometer to change the brightness of the LED
@@ -30,7 +40,7 @@ We also installed the Lamp. We used a 3V battery holder with switch to turn the 
 
 Learn more about these basics in [this video](https://www.youtube.com/watch?v=bQS-vkHR7F8&)
 
-## 3. Basic Circuits with Arduino
+## 4. Basic Circuits with Arduino
 The following programs were used to teach the students the basics of working with the Arduino. Before we got started, we also discussed more about how the Arduino works and the parts of the Arduino such as the ATMega 328P Chip, Digital Headers, Analog Headerrs, Power Headers, USB Socket, Power Jack, the Printed Circuit Board (PCB) and more. I also provided an [Arduino Function Cheatsheet](https://docs.google.com/document/d/1QYzo4wBym-xJpfdnLt6h2N2m4J6qdlCz4fPCTWNhXuQ/edit?usp=sharing) to help the students out with programming.
 
 ### a). Blink
@@ -48,10 +58,18 @@ The students learned how to control and LED using a Potentiometer. T he students
 
 We also discussed PWM Pins. Learn more about PWM Pins in [this video](https://www.youtube.com/watch?v=s4Tgw_W7Zdg).
 
+The Grove Potentiometer is pictured below.
+
+![alt text](https://www.kiwi-electronics.com/image/cache/catalog/product/83habfak/SS-101020017-1-1400x934.jpg?format=400w)
+
 ### c). Button
 The students used a Button with a pull up resistor to turn an LED ON and OFF. 
 
-## 4. Piano
+The buttons used are pictured below.
+
+![alt text](https://ae01.alicdn.com/kf/Hfa98b15cf6a14cf1801cf67fe45c2550Q.jpg?format=400w)
+
+## 5. Piano
 The following were used to teach the students how to use a buzzer to emit noises similar to a piano in different projects.
 
 ### a). 5 Button Piano
@@ -60,6 +78,10 @@ In this project, the students created a mini, portable piano. The following comp
 * Buzzer: Will be used to emit noises of said frequencies
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=8YZ9XIKRaRU&).
+
+The Grove Buzzer is pictured below.
+
+![alt text](https://thepihut.com/cdn/shop/products/grove-buzzer-seeed-mmp-0748-40332735054019_600x.jpg?v=1680272966?format=400w)
 
 ### b). Auto Piano
 In this project, the students set up their board such that it played can play of tune (in this case, "Twinkle Twinkle Little Stars"). The components we use are:
@@ -71,7 +93,11 @@ Note: Changing the tempo in the middle of the piece will automatically restart t
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=-I5X-YtkoWw&).
 
-## 5. Metronome
+The Grove OLED Display is pictured below.
+
+![alt text](https://www.mouser.com/images/marketingid/2021/img/152415295.png?v=070223.0510?format=400w)
+
+## 6. Metronome
 In this project, the students created a metronome. A metronome is used in musical practice as a way to keep the beat, or tempo. An image of a metronome is shown below.
 
 ![alt text](https://images.squarespace-cdn.com/content/v1/5a04b91b914e6b6222be0e26/1551373680221-G9ZWBOR9HGR3H1162KW7/Seiko-Quartz-Metronome.jpg?format=400w)
@@ -88,8 +114,12 @@ We created this metronome to mimic the one in the image: therefore the BPM will 
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=qt-YgZJz8uY).
 
-## 6. Ultrasonic Ranger Projects
+## 7. Ultrasonic Ranger Projects
 The following 2 projects were created using the Ultrasonic Ranger. The Ultrasonic Ranger can return a distance in centimeters or inches, and we can do different things with this information.
+
+The Grove Ultrasonic Ranger is pictured below.
+
+![alt text](https://files.seeedstudio.com/wiki/Grove_Ultrasonic_Ranger/V2.jpg?format=400w)
 
 ### a). Range Finder
 A range finder is commonly used in golf to determine how far away the hole is. This helps one determine which club to use. The students created a simple range finder using the following parts:
@@ -107,7 +137,7 @@ Modern cars have different ways to detect if the car will be involved in a colli
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=lpBptqLrOXk).
 
-## 7. Weather Station
+## 8. Weather Station
 We will use the following components:
 * Grove Temperature and Humidity Sensor: Will read out the temperature and humidity using the DHT 11 Sensor installed
 * OLED Display: Will print out the temperature and humidity given from the TH Sensor
@@ -115,7 +145,11 @@ This acts as a simple thermostat - there many different applications to this! No
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=xR2um3CB-e0&).
 
-## 8. Water Overflow Detector
+The Grove Temperature and Humidity Sensor is pictured below.
+
+![alt text](https://seeeddoc.github.io/Grove_System/img/Temp_and_Humi_Sensor.jpg?format=400w)
+
+## 9. Water Overflow Detector
 Our final propject before we put everything together will be a Water Overflow Detector. For this project, I devised a container with a lid (pictured below) such that the Water Sensor can easily fit in the slot, and a funnel can be placed in the circular hole to increase the water level. 
 
 The components used in this project are as follow:
@@ -126,7 +160,11 @@ The components used in this project are as follow:
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=SfWMD1pfpyw&).
 
-## 9. Final Project 
+The Grove Water Sensor and the container used for testing are pictured below.
+
+![alt text](https://seeeddoc.github.io/Grove_System/img/Temp_and_Humi_Sensor.jpg?format=400w)
+
+## 10. Final Project 
 In the final project, the students combined all the previous project code into one final script. This was implemented such that even if the students do not have access to the code in the future, they can still run all their projects on the boards, since the Arduino will automatically run the last project that was loaded onto the Arduino once connected to power (hence why we initally installed the 9V battery on the board, allowing the students to power on the Arduino whenever they wish). 
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=z6CdSy7QxXw&).

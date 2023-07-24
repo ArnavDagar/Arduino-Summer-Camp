@@ -22,9 +22,9 @@ The majority of these parts are attached to the board via standoffs, screws, and
 
 ## 2. Basic Circuits
 I started the camp by teaching the students circuit basics:
-*Turning ON and LED on the Breadboard
-*Using a potentiometer to change the brightness of the LED
-*Using a button to turn the LED ON and OFF
+* Turning ON and LED on the Breadboard
+* Using a potentiometer to change the brightness of the LED
+* Using a button to turn the LED ON and OFF
 
 We also installed the Lamp. We used a 3V battery holder with switch to turn the Lamp on and off.
 
@@ -46,7 +46,7 @@ The students learned how to control and LED using a Potentiometer. T he students
 * analogRead(pin): Read the value of analog pin (A0, A1, etc.). Value will be from 0-1023
 * analogWrite(pin, value): Writes an analog value to a pin. This value should be between 0 and 255.
 
-We also discussed PWM Pins. Learn more about PWM Pins in [this video](https://www.youtube.com/watch?v=s4Tgw_W7Zdg)
+We also discussed PWM Pins. Learn more about PWM Pins in [this video](https://www.youtube.com/watch?v=s4Tgw_W7Zdg).
 
 ### c). Button
 The students used a Button with a pull up resistor to turn an LED ON and OFF. 
@@ -55,10 +55,21 @@ The students used a Button with a pull up resistor to turn an LED ON and OFF.
 The following were used to teach the students how to use a buzzer to emit noises similar to a piano in different projects.
 
 ### a). 5 Button Piano
-In this project, the students created a mini-piano using the buzzer and 5 buttons installed on the breadboard. Learn more about this project in [this video](https://www.youtube.com/watch?v=qt-YgZJz8uY)
+In this project, the students created a mini, portable piano. The following components were used in the project:
+* 5 Buttons: Connected on the breadboard, each button will represent a key on the piano, ranging from Middle C (256 Hz frequency) to G (~392 Hz frequency)
+* Buzzer: Will be used to emit noises of said frequencies
+
+Learn more about this project in [this video](https://www.youtube.com/watch?v=8YZ9XIKRaRU&).
 
 ### b). Auto Piano
-In this project, the students set the buzzer up such that it played "Twinkle Twinkle Little Stars" on its own at a tempo that can be changed using the potentiometer. Learn more about this project in [this video](https://www.youtube.com/watch?v=qt-YgZJz8uY)zz
+In this project, the students set up their board such that it played can play of tune (in this case, "Twinkle Twinkle Little Stars"). The components we use are:
+* Buzzer: Will emit the frequencies that represent notes from Middle C to A
+* Potentiometer: The students will use this to change the tempo (more on that in the next section) of the piece
+* OLED Display: Will display the tempo selected of the piece
+
+Note: Changing the tempo in the middle of the piece will automatically restart the piece.
+
+Learn more about this project in [this video](https://www.youtube.com/watch?v=-I5X-YtkoWw&).
 
 ## 5. Metronome
 In this project, the students created a metronome. A metronome is used in musical practice as a way to keep the beat, or tempo. An image of a metronome is shown below.
@@ -75,6 +86,8 @@ The students will use the following components to create the metronome:
 
 We created this metronome to mimic the one in the image: therefore the BPM will range from 40 BPM to 208 BPM.
 
+Learn more about this project in [this video](https://www.youtube.com/watch?v=qt-YgZJz8uY).
+
 ## 6. Ultrasonic Ranger Projects
 The following 2 projects were created using the Ultrasonic Ranger. The Ultrasonic Ranger can return a distance in centimeters or inches, and we can do different things with this information.
 
@@ -83,10 +96,37 @@ A range finder is commonly used in golf to determine how far away the hole is. T
 * Ultrasonic Ranger: Returned distance to nearest obstacle
 * OLED Display: Prints out this value
 
+Learn more about this project in [this video](https://www.youtube.com/watch?v=FXLg-NOD_yA).
+
 ### b). Collision Alert
-Modernn cars have different ways to detect if the car will be involved in a collision. We will be implmeneting a simple Collision Alert in this program using the Ultrasonic Sensor. We will use the following parts:
+Modern cars have different ways to detect if the car will be involved in a collision. We will be implmeneting a simple Collision Alert in this program using the Ultrasonic Sensor. We will use the following parts:
 * Ultrasonic Ranger: Returns distance to nearest obstacle
 * OLED Display: Displays an alert: Clear, Caution, Danger, Critical
 * Buzzer: Beeps at certain BPM depending on alert and distance
 * LED: Blinks at certain speed depending on alert and distance
 
+Learn more about this project in [this video](https://www.youtube.com/watch?v=lpBptqLrOXk).
+
+## 7. Weather Station
+We will use the following components:
+* Grove Temperature and Humidity Sensor: Will read out the temperature and humidity using the DHT 11 Sensor installed
+* OLED Display: Will print out the temperature and humidity given from the TH Sensor
+This acts as a simple thermostat - there many different applications to this! Notice how after runnign this code, putting your finger on the sensor will increase the temperature and humidity.
+
+Learn more about this project in [this video](https://www.youtube.com/watch?v=xR2um3CB-e0&).
+
+## 8. Water Overflow Detector
+Our final propject before we put everything together will be a Water Overflow Detector. For this project, I devised a container with a lid (pictured below) such that the Water Sensor can easily fit in the slot, and a funnel can be placed in the circular hole to increase the water level. 
+
+The components used in this project are as follow:
+* Watter Sensor: Returns the level of water touching the sensor
+* OLED Display: Displays either Clear, Caution, Danger, or Critical
+* Buzzer: Beeps at different frequencies depending on the water level
+* LED: Blinks at different frequencies depending on the water level
+
+Learn more about this project in [this video](https://www.youtube.com/watch?v=SfWMD1pfpyw&).
+
+## 9. Final Project 
+In the final project, the students combined all the previous project code into one final script. This was implemented such that even if the students do not have access to the code in the future, they can still run all their projects on the boards, since the Arduino will automatically run the last project that was loaded onto the Arduino once connected to power (hence why we initally installed the 9V battery on the board, allowing the students to power on the Arduino whenever they wish). 
+
+Learn more about this project in [this video](https://www.youtube.com/watch?v=z6CdSy7QxXw&).

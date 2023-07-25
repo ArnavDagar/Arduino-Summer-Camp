@@ -6,8 +6,16 @@ This repostory contains the Code and Explanation for the projects.
 Learn more about each project on my [youtube channel](https://www.youtube.com/channel/UCszrNeQ_xBV6YQfvcIs6uVA).
 
 ## 1. Board Creation
-It was important to have all components assembled together so students appreciate the packaging aspects of the projects as well.  For this, I designed a layout in python of a 8x10 inchees acrylic board. It was printed on vinyl sticker and then pasted on acrylic sheets, This allowed perfect drilling of holes.
-<img src="./Acrylic.jpg" alt="Image of Acrylic Sheet" />
+It was important to have all components assembled together so students had an organized workspace and could appreciate what is involved in making real applications and not just a quick demo.
+
+For this, I designed a layout in python (Arduino Project Layout.py) of a 8x10 inchees acrylic board. It was printed on vinyl sticker and then pasted on acrylic sheets.
+
+<img src="./Acrylic.jpg" alt="Image of Acrylic Sheet" /> <img src="./Vinyl.png" alt="Image of Vinyl Sticker" />
+
+Below are images of a printed layout. This allowed easy drilling of holes. A 3.5in x 2.5 in acrylic panel was used for the installing the Ultrasonic Sensor.
+
+<img src="./USLayout1.jpg" width="240" alt="Image of US Board Layout" /> <img src="./ArduinoLayout.jpg" width="480" alt="Image of Acrylic Board Layout" /> 
+
 The Acrylic Board which housed all the componenets:
 * Arduino Uno R3
 * Grove Base Shield
@@ -22,6 +30,7 @@ The Acrylic Board which housed all the componenets:
 * Grove Ultrasonic Ranger
 * Grove Water Sensor
 
+The Aruino Uno R3 and 
 The majority of these parts are attached to the board via standoffs, screws, and nuts. I drilled holes onto the acrylic board based on an outline I created from a python script. The Water Sensor, Breadboard, and 9V Battery are the only parts not connected via standoffs. The Ultrasonic Ranger is attached using a seperate acrylic board installed perpendicular to make it easier for the students to test out said sensor. 
 
 <img src="./Acrylic_Board.jpg" width="480" alt="Image of Acrylic Board" />

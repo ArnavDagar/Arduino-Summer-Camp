@@ -70,12 +70,12 @@ The buttons used are pictured below.
 ![alt text](https://ae01.alicdn.com/kf/Hfa98b15cf6a14cf1801cf67fe45c2550Q.jpg?format=400w)
 
 ## 5. Piano
-The following were used to teach the students how to use a buzzer to emit noises similar to a piano in different projects.
+The following projects were used to teach the students how to use a buzzer to emit specific tones similar to a piano in different projects.
 
 ### a). 5 Button Piano
 In this project, the students created a mini, portable piano. The following components were used in the project:
 * 5 Buttons: Connected on the breadboard, each button will represent a key on the piano, ranging from Middle C (256 Hz frequency) to G (~392 Hz frequency)
-* Buzzer: Will be used to emit noises of said frequencies
+* Buzzer: Will be used to emit toness of said frequencies
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=8YZ9XIKRaRU&).
 

@@ -33,7 +33,7 @@ The Acrylic Board which housed all the componenets:
 The Aruino Uno R3 and 
 The majority of these parts are attached to the board via standoffs, screws, and nuts. I drilled holes onto the acrylic board based on an outline I created from a python script. The Water Sensor, Breadboard, and 9V Battery are the only parts not connected via standoffs. The Ultrasonic Ranger is attached using a seperate acrylic board installed perpendicular to make it easier for the students to test out said sensor. 
 
-<img src="./Acrylic_Board.jpg" width="480" alt="Image of Acrylic Board" />
+<img src="./Acrylic_Board.jpg" alt="Image of Acrylic Board" />
 
 ## 2. Grove Shield
 

@@ -35,13 +35,13 @@ The majority of these parts are attached to the board via standoffs, screws, and
 
 <img src="./Acrylic_Board.jpg" alt="Image of Acrylic Board" />
 
-## 2. Grove Shield
+## 2. Grove Base Shield
 
 To make wiring these different circuits less complicated for the students and easier to debug in the case of error, all students mounted the Grove Shield on top of the Arduino. This made connecting all the grove parts much easier. To connect to the grove shield, insert the grove cable (which contains all 4 wires needed) into both the component and the grove shield.
 
 The Grove Shield is pictured below.
 
-![alt text](https://seeeddoc.github.io/Grove-Base_shield_v2/img/Base_Shield_v2-1.png?format=400w)
+<img src="./ArduinoUnoR3.jpg" height="240" alt="Image of Arduino Uno R3" /> <img src="Grove BS.jpg" height = "240" alt="Image of Grove Base Shield" />
 
 ## 3. Basic Circuits
 I started the camp by teaching the students circuit basics:

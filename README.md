@@ -1,10 +1,14 @@
 # Arduino-Summer-Camp
-Code and Explanation for an Arduino Beginner Summer Camp
+In the summer of 2023, I conducted a summer camp to teach students programming and electronics using Arduino and simple components. The camp focused on showing how to make real world applications of a micro controller board (Arduino Uno R3 in our case) and components like LEDs, Buzzer, OLED Display, Ultrasonic Sensor, Water Sensor, Potentiometer, and Temperature and Humidity Senor.
+
+This repostory contains the Code and Explanation for the projects.
 
 Learn more about each project on my [youtube channel](https://www.youtube.com/channel/UCszrNeQ_xBV6YQfvcIs6uVA).
 
 ## 1. Board Creation
-The Acrylic Board which housed all the componenets were created by me. The components on the board include:
+It was important to have all components assembled together so students appreciate the packaging aspects of the projects as well.  For this, I designed a layout in python of a 8x10 inchees acrylic board. It was printed on vinyl sticker and then pasted on acrylic sheets, This allowed perfect drilling of holes.
+<img src="./Acrylic_Board.jpg" alt="Image of Acrylic Board" />
+The Acrylic Board which housed all the componenets:
 * Arduino Uno R3
 * Grove Base Shield
 * Breadboard

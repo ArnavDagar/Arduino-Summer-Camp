@@ -7,7 +7,7 @@ Learn more about each project on my [youtube channel](https://www.youtube.com/ch
 
 ## 1. Board Creation
 It was important to have all components assembled together so students appreciate the packaging aspects of the projects as well.  For this, I designed a layout in python of a 8x10 inchees acrylic board. It was printed on vinyl sticker and then pasted on acrylic sheets, This allowed perfect drilling of holes.
-<img src="./Acrylic_Board.jpg" alt="Image of Acrylic Board" />
+<img src="./Acrylic.jpg" alt="Image of Acrylic Sheet" />
 The Acrylic Board which housed all the componenets:
 * Arduino Uno R3
 * Grove Base Shield

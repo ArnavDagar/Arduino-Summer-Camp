@@ -1,14 +1,12 @@
 # Arduino-Summer-Camp
-In the summer of 2023, I conducted a summer camp to teach students programming and electronics using Arduino and simple components. The camp focused on showing how to make real world applications of a micro controller board (Arduino Uno R3 in our case) and components like LEDs, Buzzer, OLED Display, Ultrasonic Sensor, Water Sensor, Potentiometer, and Temperature and Humidity Senor.
+In the summer of 2023, I conducted a summer camp to teach students programming and electronics using Arduino and simple components. The camp focused on making real world applications like a five Key Piano, Automatic Piano, Metronome, Weather Station, Range Finder, Collison Alert and Water Overflow Detection systems using a micro controller board (Arduino Uno R3 in our case), sensors like Ultrasonic Sensor, Water Sensor, Potentiometer, and Temperature and Humidity and audio visual actuators or output devices like LEDs, Piezo Buzzer and OLED Display.
 
 This repostory contains the Code and Explanation for the projects.
 
 Learn more about each project on my [youtube channel](https://www.youtube.com/channel/UCszrNeQ_xBV6YQfvcIs6uVA).
 
 ## 1. Board Creation
-It was important to have all components assembled together so students had an organized workspace and could appreciate what is involved in making real applications and not just a quick demo.
-
-For this, I designed a layout in python (Arduino Project Layout.py) of a 8x10 inchees acrylic board. It was printed on vinyl sticker and then pasted on acrylic sheets.
+It was important to have all components assembled together so students had an organized workspace and could appreciate what is involved in making real applications and not just a quick demo. For this, I designed a layout in python (Arduino Project Layout.py) of a 8x10 inchees acrylic board. It was printed on vinyl sticker and then pasted on acrylic sheets.
 
 <img src="./Acrylic.jpg" alt="Image of Acrylic Sheet" /> <img src="./Vinyl.png" alt="Image of Vinyl Sticker" />
 
@@ -16,35 +14,35 @@ Below are images of a printed layout. This allowed easy drilling of holes. A 3.5
 
 <img src="./USLayout1.jpg" width="240" alt="Image of US Board Layout" /> <img src="./ArduinoLayout.jpg" width="480" alt="Image of Acrylic Board Layout" /> 
 
-The Acrylic Board which housed all the componenets:
+The Acrylic Board housed all the componenets:
 * Arduino Uno R3
 * Grove Base Shield
 * Breadboard
 * Lamp
 * 9V Battery
 * Grove Potentiometer
-* Grove Temperature & Humidity Sensor
+* Grove Temperature & Humidity Sensor (DHT11)
 * Grove LED
 * Grove Buzzer
 * Grove OLED Display
 * Grove Ultrasonic Ranger
 * Grove Water Sensor
 
-The Aruino Uno R3 and 
+The Aruino Uno R3 is attached to the board using M2.5+6 5mm standoffs and M2.5 screws and nuts. The breadboard is pasted on the board. 
+
+The water sensor was installed on a plastic water reservoir. Using a soldering iron on a plastic box with lid, I cut out a slot for water sensor and a hole for a funnel to add water. 
+
+Ultrasonic sensor was installled on the small panel using M2.5+6 5mm standoffs, screws and nuts. This small pannel was connected to the mainboard using L shaped brackets with M3 screws and nuts.
+
+Other sensors (POT, DHT11 sensors) were connected using M2+6 5mm standoffs and screws.  The actuators (OLED display, LED, Buzzer) were connected using M2+6 10mm standoffs. The acrylic board used a stand made from M2.5+6 25mm standoffs and nuts.
+
 The majority of these parts are attached to the board via standoffs, screws, and nuts. I drilled holes onto the acrylic board based on an outline I created from a python script. The Water Sensor, Breadboard, and 9V Battery are the only parts not connected via standoffs. The Ultrasonic Ranger is attached using a seperate acrylic board installed perpendicular to make it easier for the students to test out said sensor. 
 
 <img src="./Acrylic_Board.jpg" alt="Image of Acrylic Board" />
 
-## 2. Grove Base Shield
-
-To make wiring these different circuits less complicated for the students and easier to debug in the case of error, all students mounted the Grove Shield on top of the Arduino. This made connecting all the grove parts much easier. To connect to the grove shield, insert the grove cable (which contains all 4 wires needed) into both the component and the grove shield.
-
-The Grove Shield is pictured below.
-
-<img src="./ArduinoUnoR3.jpg" height="240" alt="Image of Arduino Uno R3" /> <img src="Grove BS.jpg" height = "240" alt="Image of Grove Base Shield" />
-
-## 3. Basic Circuits
-I started the camp by teaching the students circuit basics:
+## 2. Basic Circuits
+I started the camp by teaching the students circuit basics starting with a lamp, battery and switch.
+Then we went through how to use a breadboard to assemnle circuits
 * Turning ON and LED on the Breadboard
 * Using a potentiometer to change the brightness of the LED
 * Using a button to turn the LED ON and OFF
@@ -53,8 +51,12 @@ We also installed the Lamp. We used a 3V battery holder with switch to turn the 
 
 Learn more about these basics in [this video](https://www.youtube.com/watch?v=bQS-vkHR7F8&)
 
-## 4. Basic Circuits with Arduino
-The following programs were used to teach the students the basics of working with the Arduino. Before we got started, we also discussed more about how the Arduino works and the parts of the Arduino such as the ATMega 328P Chip, Digital Headers, Analog Headerrs, Power Headers, USB Socket, Power Jack, the Printed Circuit Board (PCB) and more. I also provided an [Arduino Function Cheatsheet](https://docs.google.com/document/d/1QYzo4wBym-xJpfdnLt6h2N2m4J6qdlCz4fPCTWNhXuQ/edit?usp=sharing) to help the students out with programming.
+## 3. Basic Circuits with Arduino
+We started with a discussion of how the Arduino works and the parts of the Arduino such as the ATMega 328P Chip, Digital Headers, Analog Headerrs, Power Headers, USB Socket, Power Jack, the Printed Circuit Board (PCB) and more. 
+
+After installing the Arduino IDE, we looked at basic Arduino ciruits and small programs for sensors and actuators.
+
+I also provided an [Arduino Function Cheatsheet](https://docs.google.com/document/d/1QYzo4wBym-xJpfdnLt6h2N2m4J6qdlCz4fPCTWNhXuQ/edit?usp=sharing) to help the students out with programming.
 
 ### a). Blink
 The students created a program to blink the LED ON and OFF. The students learned about the following functions:
@@ -71,30 +73,52 @@ The students learned how to control and LED using a Potentiometer. T he students
 
 We also discussed PWM Pins. Learn more about PWM Pins in [this video](https://www.youtube.com/watch?v=s4Tgw_W7Zdg).
 
-The Grove Potentiometer is pictured below.
-
-![alt text](https://www.kiwi-electronics.com/image/cache/catalog/product/83habfak/SS-101020017-1-1400x934.jpg?format=400w)
-
 ### c). Button
 The students used a Button with a pull up resistor to turn an LED ON and OFF. 
 
-The buttons used are pictured below.
 
-![alt text](https://ae01.alicdn.com/kf/Hfa98b15cf6a14cf1801cf67fe45c2550Q.jpg?format=400w)
+## 2. Grove Base Shield and Grove Components
+
+A Grove Base Shield and Grove Components were used for the rest of the camp. This ensured faster, error free circuit assembly to allow the students to focus on applications and programming.
+
+The Grove Shield is mounted on top of the Arduino UNO R3 and Grove components are connected to the shield through Digitial, Analog and I2C ports through a 4 wire Grove Cable. There is no need to worry about power, ground, pull up resistors etc.
+
+
+The Grove Shield is pictured below along with an Arduino UNO R3 Board.
+
+<img src="./ArduinoUnoR3.jpg" height="240" alt="Image of Arduino Uno R3" /> <img src="Grove BS.jpg" height = "240" alt="Image of Grove Base Shield" />
+
+Below picture shows the different components. The Grove components are connected to the Grove Shield. The Grove Shield also exposes the Arduino Headers allowing the buttons to be connected in a traditional manner on a breadboard.
+
+### a). Actuators or Output Devices:
+The micro-controller uses these to initiate specific actions e.g. display something, alter the state of LED or emit a tone.
+
+<img src="./Grove_Display.png" alt="Image of Grove OLED Display" /> <img src="Grove_LED.png" alt="Image of Grove LED" /> <img src="./Grove_PB.png" alt="Image of Grove Piezo Buzzer" /> 
+
+### b). Sensors or Input Devices:
+The micro controller uses these to gets inputs from the user or environment e.g. POT angle,  temperature, humidity, level sensor is submerged in water and distance to an obstacle. Based on these inputs, the micro controller can be programmed to send outputs to actuators.
+
+<img src="Grove_POT.png" alt="Image of Grove POT" /> <img src="./Grove_TH.png" alt="Image of Grove DHT11" /> <img src="Grove_US.png" alt="Image of Grove US" /> <img src="./Grove_WS.png" alt="Image of Grove Water Sensor" /> <img src="./Button.png" alt="Image of Button" /> 
+
+### c) Circuit Diagram for all the components
+
+The circuit diagram shows how the various components are connected. The Buttons and IR receiver are connected using the Header Pins of the Grove Shield on the breadboard and the corresponding PINs are shown.
+
+The Grove components are connected to the Grove Shield Ports which are shown in the circuit diagram:
+
+<img src="./Circuit_Diagram.jpg" alt="Image of Circuit Diagram" /> 
+
 
 ## 5. Piano
 The following projects were used to teach the students how to use a buzzer to emit specific tones similar to a piano in different projects.
 
-### a). 5 Button Piano
+### a). Five Key Piano
 In this project, the students created a mini, portable piano. The following components were used in the project:
 * 5 Buttons: Connected on the breadboard, each button will represent a key on the piano, ranging from Middle C (256 Hz frequency) to G (~392 Hz frequency)
 * Buzzer: Will be used to emit toness of said frequencies
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=8YZ9XIKRaRU&).
 
-The Grove Buzzer is pictured below.
-
-![alt text](https://thepihut.com/cdn/shop/products/grove-buzzer-seeed-mmp-0748-40332735054019_600x.jpg?v=1680272966?format=400w)
 
 ### b). Auto Piano
 In this project, the students set up their board such that it played can play of tune (in this case, "Twinkle Twinkle Little Stars"). The components we use are:
@@ -106,9 +130,6 @@ Note: Changing the tempo in the middle of the piece will automatically restart t
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=-I5X-YtkoWw&).
 
-The Grove OLED Display is pictured below.
-
-![alt text](https://www.mouser.com/images/marketingid/2021/img/152415295.png?v=070223.0510?format=400w)
 
 ## 6. Metronome
 In this project, the students created a metronome. A metronome is used in musical practice as a way to keep the beat, or tempo. An image of a metronome is shown below.
@@ -130,10 +151,6 @@ Learn more about this project in [this video](https://www.youtube.com/watch?v=qt
 ## 7. Ultrasonic Ranger Projects
 The following 2 projects were created using the Ultrasonic Ranger. The Ultrasonic Ranger can return a distance in centimeters or inches, and we can do different things with this information.
 
-The Grove Ultrasonic Ranger is pictured below.
-
-![alt text](https://files.seeedstudio.com/wiki/Grove_Ultrasonic_Ranger/V2.jpg?format=400w)
-
 ### a). Range Finder
 A range finder is commonly used in golf to determine how far away the hole is. This helps one determine which club to use. The students created a simple range finder using the following parts:
 * Ultrasonic Ranger: Returned distance to nearest obstacle
@@ -142,7 +159,7 @@ A range finder is commonly used in golf to determine how far away the hole is. T
 Learn more about this project in [this video](https://www.youtube.com/watch?v=FXLg-NOD_yA).
 
 ### b). Collision Alert
-Modern cars have different ways to detect if the car will be involved in a collision. We will be implmeneting a simple Collision Alert in this program using the Ultrasonic Sensor. We will use the following parts:
+Modern cars have different ways to detect if the car is approaching an obstacle. We will be implmeneting a simple Collision Alert in this program using the Ultrasonic Sensor. We will use the following parts:
 * Ultrasonic Ranger: Returns distance to nearest obstacle
 * OLED Display: Displays an alert: Clear, Caution, Danger, Critical
 * Buzzer: Beeps at certain BPM depending on alert and distance
@@ -158,10 +175,6 @@ This acts as a simple thermostat - there many different applications to this! No
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=xR2um3CB-e0&).
 
-The Grove Temperature and Humidity Sensor is pictured below.
-
-![alt text](https://seeeddoc.github.io/Grove_System/img/Temp_and_Humi_Sensor.jpg?format=400w)
-
 ## 9. Water Overflow Detector
 Our final propject before we put everything together will be a Water Overflow Detector. For this project, I devised a container with a lid (pictured below) such that the Water Sensor can easily fit in the slot, and a funnel can be placed in the circular hole to increase the water level. 
 
@@ -175,9 +188,9 @@ Learn more about this project in [this video](https://www.youtube.com/watch?v=Sf
 
 The Grove Water Sensor and the container used for testing are pictured below.
 
-![alt text](https://seeeddoc.github.io/Grove_System/img/Temp_and_Humi_Sensor.jpg?format=400w)
-
 ## 10. Final Project 
 In the final project, the students combined all the previous project code into one final script. This was implemented such that even if the students do not have access to the code in the future, they can still run all their projects on the boards, since the Arduino will automatically run the last project that was loaded onto the Arduino once connected to power (hence why we initally installed the 9V battery on the board, allowing the students to power on the Arduino whenever they wish). 
+
+This project cycles through each of the projects one at a time when the user presses the red and black buttons simulatenously. This was a good project to learn switch case constructs.
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=z6CdSy7QxXw&).

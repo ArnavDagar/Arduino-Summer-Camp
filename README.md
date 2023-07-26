@@ -1,14 +1,52 @@
 # Arduino-Summer-Camp
 In the summer of 2023, I conducted a summer camp to teach students programming and electronics using Arduino and simple components. The camp focused on making real world applications like a five Key Piano, Automatic Piano, Metronome, Weather Station, Range Finder, Collison Alert and Water Overflow Detection systems using a micro controller board (Arduino Uno R3 in our case), sensors like Ultrasonic Sensor, Water Sensor, Potentiometer, and Temperature and Humidity and audio visual actuators or output devices like LEDs, Piezo Buzzer and OLED Display.
 
-This repostory contains the Code and Explanation for the projects.
+I designed the curriculum for middle to high schoolers with no prior experience in coding or electronics. I selected the components, designed a kit, developed lesson plans and conudcted the camp at Casa de Amistad in San Diego. The students were very engaged and had a fun learning and enriching experience.
+
+This repostory contains the Code and Explanation for the projects. 
 
 Learn more about each project on my [youtube channel](https://www.youtube.com/channel/UCszrNeQ_xBV6YQfvcIs6uVA).
+
+## 1. Inventory
+
+| S.No. | Part  | Image  | Vendor        | Quantity |
+|:-----:|:-----:|:------:|:-------------:|:----:|
+| 1.    | Aruino Uno R3 | <img src="./ArduinoUnoR3.jpg" height="120" alt="Image of Arduino Uno R3" /> | RobotShop | 1 | 
+| 2.    | Grove Base Shield | <img src="Grove BS.jpg" height = "120" alt="Image of Grove Base Shield" /> | Seeed Studio | 1 | 
+| 3.    | Acrylic 8''x10'' sheet |<img src="./Acrylic.jpg" height = "120" alt="Image of Acrylic Sheet" /> | Amazon | 1 | 
+| 4.    | Acrylic 3.5''x2'' panel |<img src="./Acry2.png" height = "120" alt="Image of Acrylic Panel" /> | Amazon | 1 | 
+| 5.    | Vinyl Sticker Paper |<img src="./Vinyl.png" height = "120" alt="Image of Vinyl Sticker" />| Amazon | | 
+| 6.    | Mini Lamp & Holder|<img src="./MiniBulb.png" height = "120" alt="Image of Mini Bulb" />| Amazon | | 
+| 7.    | 3V AA Battery Holder with Knife Switch |<img src="./BatteryHolder.png" height = "120" alt="Image of Battery Holder" />| Adafruit | | 
+| 8.    | Grove Yellow Blue OLED Display |<img src="./Grove_Display.png" height = "120" alt="Image of Grove OLED Display" /> | Amazon | |
+| 9.    | Grove LED | <img src="Grove_LED.png" height = "120" alt="Image of Grove LED" /> | Amazon | |
+| 10.    | Grove Buzzer | <img src="./Grove_PB.png" height = "120" alt="Image of Grove Piezo Buzzer" />  | Amazon | |
+| 11.   | Grove Rotary Sensor | <img src="Grove_POT.png" height = "120" alt="Image of Grove POT" /> | Amazon | |
+| 12.   | Grove Temperature & Humidity Sensor |  <img src="./Grove_TH.png" height = "120" alt="Image of Grove DHT11" /> | Amazon | |
+| 13.   | Grove Ultrasonic Sensor |  <img src="Grove_US.png" height = "120" alt="Image of Grove US" /> | Amazon | |
+| 14    | Grove Water Sensor | <img src="./Grove_WS.png" height = "120" alt="Image of Grove Water Sensor" />  | Amazon | |
+| 15.   | Gikfun Buttons | <img src="./Button.png" height = "120" alt="Image of Button" /> | Amazon | |
+| 16.   | L Brackets | <img src="./LShape.jpg" height = "120" alt="Image of L Brackets" /> | Amazon | |
+| 17.   | Small Funnel | <img src="./Funnel.png" height = "120" alt="Image of Funnel" /> | Amazon | |
+| 18.   | IR Receiver | <img src="./IR_Receiver.png" height = "120" alt="Image of IR Receiver" /> | Adafruit | |
+| 19.   | JUmper Cables | <img src="./M2MCables.png" height = "120" alt="Image of Jumper Cables" /> | Amazon | |
+| 20.   | 10k Ohm Resistors | <img src="./R10.png" height = "120" alt="Image of 10K Resistor" /> | RobotShop | |
+| 21.   | 330 Ohm Resistors | <img src="./R330.png" height = "120" alt="Image of 330 Resistor" /> | RobotShop | |
+
+Notes:
+1. The Grove components came with the Grove Cables (4 wire cable - red for vcc, black for ground, yellow for signal, white for signal or no connection).
+2. An inkject Epson printer was used for printing on the Vinyl Stickers to scale at 200 dpi
+3. Fiskars cutting tool was used to cut the printed vinyl sticker precisely
+4. A drill with 2mm, 2.4mm and 2.9mm drill bits was used to make holes in the Acrylic
+5. A soldering iron was used to make slots and holes in the platic water reservoir
+6. All components were collated in a plastic container to hand to each student
+
+
 
 ## 1. Board Creation
 It was important to have all components assembled together so students had an organized workspace and could appreciate what is involved in making real applications and not just a quick demo. For this, I designed a layout in python (Arduino Project Layout.py) of a 8x10 inchees acrylic board. It was printed on vinyl sticker and then pasted on acrylic sheets.
 
-<img src="./Acrylic.jpg" alt="Image of Acrylic Sheet" /> <img src="./Vinyl.png" alt="Image of Vinyl Sticker" />
+
 
 Below are images of a printed layout. This allowed easy drilling of holes. A 3.5in x 2.5 in acrylic panel was used for the installing the Ultrasonic Sensor.
 
@@ -86,19 +124,18 @@ The Grove Shield is mounted on top of the Arduino UNO R3 and Grove components ar
 
 The Grove Shield is pictured below along with an Arduino UNO R3 Board.
 
-<img src="./ArduinoUnoR3.jpg" height="240" alt="Image of Arduino Uno R3" /> <img src="Grove BS.jpg" height = "240" alt="Image of Grove Base Shield" />
+<img src="./ArduinoUnoR3.jpg" height="240" alt="Image of Arduino Uno R3" /> 
 
 Below picture shows the different components. The Grove components are connected to the Grove Shield. The Grove Shield also exposes the Arduino Headers allowing the buttons to be connected in a traditional manner on a breadboard.
 
 ### a). Actuators or Output Devices:
 The micro-controller uses these to initiate specific actions e.g. display something, alter the state of LED or emit a tone.
 
-<img src="./Grove_Display.png" alt="Image of Grove OLED Display" /> <img src="Grove_LED.png" alt="Image of Grove LED" /> <img src="./Grove_PB.png" alt="Image of Grove Piezo Buzzer" /> 
+
 
 ### b). Sensors or Input Devices:
 The micro controller uses these to gets inputs from the user or environment e.g. POT angle,  temperature, humidity, level sensor is submerged in water and distance to an obstacle. Based on these inputs, the micro controller can be programmed to send outputs to actuators.
 
-<img src="Grove_POT.png" alt="Image of Grove POT" /> <img src="./Grove_TH.png" alt="Image of Grove DHT11" /> <img src="Grove_US.png" alt="Image of Grove US" /> <img src="./Grove_WS.png" alt="Image of Grove Water Sensor" /> <img src="./Button.png" alt="Image of Button" /> 
 
 ### c) Circuit Diagram for all the components
 

@@ -28,7 +28,7 @@ Learn more about each project on my [youtube channel](https://www.youtube.com/ch
 | 15.   | Grove Cables | <img src="./Images/Grove Cables.png" height = "60" alt="Image of L Brackets" /> | Seeed Studio | 7 |
 | 16.   | Gikfun Buttons | <img src="./Images/Button.png" height = "60" alt="Image of Button" /> | Amazon | 5 |
 | 17.   | IR Receiver | <img src="./Images/IR_Receiver.png" height = "60" alt="Image of IR Receiver" /> | Adafruit | 1 |
-| 18.   | JUmper Cables | <img src="./Images/M2MCables.png" height = "60" alt="Image of Jumper Cables" /> | Adafruit | 12 |
+| 18.   | Jumper Cables | <img src="./Images/M2MCables.png" height = "60" alt="Image of Jumper Cables" /> | Adafruit | 12 |
 | 19.   | 10k Ohm Resistors | <img src="./Images/R10.png" height = "60" alt="Image of 10K Resistor" /> | RobotShop | 5 |
 | 20.   | 330 Ohm Resistors | <img src="./Images/R330.png" height = "60" alt="Image of 330 Resistor" /> | RobotShop | 1 |
 | 21.   | M2 F2M Spacer 15mm | <img src="./Images/M2F2M15.png" height = "60" alt="Image of 15mm Spacer" /> | Amazon | 9 |

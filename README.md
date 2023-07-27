@@ -63,7 +63,7 @@ It was important to have all components assembled together so students had an or
 
 Below are images of a printed layout. This allowed easy drilling of holes. A 3.5in x 2.5 in acrylic panel was used for the installing the Ultrasonic Sensor.
 
-<img src="./Images/USLayout1.jpg" width="240" alt="Image of US Board Layout" /> <img src="./ArduinoLayout.jpg" width="480" alt="Image of Acrylic Board Layout" /> 
+<img src="./Images/USLayout1.jpg" width="240" alt="Image of US Board Layout" /> <img src="./Images/ArduinoLayout.jpg" width="480" alt="Image of Acrylic Board Layout" /> 
 
 The Acrylic Board housed all the componenets:
 * Arduino Uno R3

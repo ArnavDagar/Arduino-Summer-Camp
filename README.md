@@ -21,7 +21,7 @@ Learn more about each project on my [youtube channel](https://www.youtube.com/ch
 | 8.    | Grove Yellow Blue OLED Display |<img src="./Images/Grove_Display.png" height = "60" alt="Image of Grove OLED Display" /> | Seeed Studio | 1 |
 | 9.    | Grove LED | <img src="./Images/Grove_LED.png" height = "60" alt="Image of Grove LED" /> | Seeed Studio | 1 |
 | 10.    | Grove Buzzer | <img src="./Images/Grove_PB.png" height = "60" alt="Image of Grove Piezo Buzzer" />  | Seeed Studio | 1 |
-| 11.   | Grove Rotary Sensor | <img src="./ImagesGrove_POT.png" height = "60" alt="Image of Grove POT" /> | Seeed Studio | 1 |
+| 11.   | Grove Rotary Sensor | <img src="./Images/Grove_POT.png" height = "60" alt="Image of Grove POT" /> | Seeed Studio | 1 |
 | 12.   | Grove Temperature & Humidity Sensor |  <img src="./Images/Grove_TH.png" height = "60" alt="Image of Grove DHT11" /> | Seeed Studio | 1 |
 | 13.   | Grove Ultrasonic Sensor |  <img src="./Images/Grove_US.png" height = "60" alt="Image of Grove US" /> | Seeed Studio | 1 |
 | 14    | Grove Water Sensor | <img src="./Images/Grove_WS.png" height = "60" alt="Image of Grove Water Sensor" />  | Seeed Studio | 1 |

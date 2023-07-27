@@ -11,38 +11,40 @@ Learn more about each project on my [youtube channel](https://www.youtube.com/ch
 
 | S.No. | Part  | Image  | Vendor        | Quantity |
 |:-----:|:-----:|:------:|:-------------:|:----:|
-| 1.    | Aruino Uno R3 | <img src="./ArduinoUnoR3.jpg" height="120" alt="Image of Arduino Uno R3" /> | RobotShop | 1 | 
-| 2.    | Grove Base Shield | <img src="Grove BS.jpg" height = "120" alt="Image of Grove Base Shield" /> | Seeed Studio | 1 | 
-| 3.    | Acrylic 8''x10'' sheet |<img src="./Acrylic.jpg" height = "60" alt="Image of Acrylic Sheet" /> | Amazon | 1 | 
-| 4.    | Acrylic 3.5''x2'' panel |<img src="./Acry2.png" height = "60" alt="Image of Acrylic Panel" /> | Amazon | 1 | 
-| 5.    | Vinyl Sticker Paper |<img src="./Vinyl.png" height = "60" alt="Image of Vinyl Sticker" />| Amazon | 2 | 
-| 6.    | Mini Lamp & Holder|<img src="./MiniBulb.png" height = "60" alt="Image of Mini Bulb" />| Amazon | 1 | 
-| 7.    | 3V AA Battery Holder with Knife Switch |<img src="./BatteryHolder.png" height = "60" alt="Image of Battery Holder" />| Adafruit | 1 | 
-| 8.    | Grove Yellow Blue OLED Display |<img src="./Grove_Display.png" height = "60" alt="Image of Grove OLED Display" /> | Seeed Studio | 1 |
-| 9.    | Grove LED | <img src="Grove_LED.png" height = "60" alt="Image of Grove LED" /> | Seeed Studio | 1 |
-| 10.    | Grove Buzzer | <img src="./Grove_PB.png" height = "60" alt="Image of Grove Piezo Buzzer" />  | Seeed Studio | 1 |
-| 11.   | Grove Rotary Sensor | <img src="Grove_POT.png" height = "60" alt="Image of Grove POT" /> | Seeed Studio | 1 |
-| 12.   | Grove Temperature & Humidity Sensor |  <img src="./Grove_TH.png" height = "60" alt="Image of Grove DHT11" /> | Seeed Studio | 1 |
-| 13.   | Grove Ultrasonic Sensor |  <img src="Grove_US.png" height = "60" alt="Image of Grove US" /> | Seeed Studio | 1 |
-| 14    | Grove Water Sensor | <img src="./Grove_WS.png" height = "60" alt="Image of Grove Water Sensor" />  | Seeed Studio | 1 |
-| 15.   | Grove Cables | <img src="./Grove Cables.png" height = "60" alt="Image of L Brackets" /> | Seeed Studio | 7 |
-| 16.   | Gikfun Buttons | <img src="./Button.png" height = "60" alt="Image of Button" /> | Amazon | 5 |
-| 17.   | IR Receiver | <img src="./IR_Receiver.png" height = "60" alt="Image of IR Receiver" /> | Adafruit | 1 |
-| 18.   | JUmper Cables | <img src="./M2MCables.png" height = "60" alt="Image of Jumper Cables" /> | Adafruit | 12 |
-| 19.   | 10k Ohm Resistors | <img src="./R10.png" height = "60" alt="Image of 10K Resistor" /> | RobotShop | 5 |
-| 20.   | 330 Ohm Resistors | <img src="./R330.png" height = "60" alt="Image of 330 Resistor" /> | RobotShop | 1 |
-| 21.   | M2 F2M Spacer 15mm | <img src="./M2F2M15.png" height = "60" alt="Image of 15mm Spacer" /> | Amazon | 9 |
-| 22.   | M2.5 Hex Nut | <img src="./M25.png" height = "60" alt="Image of M2.5 Hex Nut" /> | Amazon | 13 |
-| 23.   | M2.5 F2M Spacer 6mm | <img src="./M25 F2M 6.png" height = "60" alt="Image of M2.5 6mm Spacer" /> | Amazon | 7 |
-| 24.   | M2.5 6mm Screws | <img src="./M2.5 Screws.png" height = "60" alt="Image of M2.5 Screws" /> | Amazon | 7 |
-| 25.   | M2.5 F2M Spacers 25mm | <img src="./M25 F2M 25.png" height = "60" alt="Image of M2.5 25mm Spacer" /> | Amazon | 6 |
-| 26.   | M2 6mm Screws | <img src="./M2 5 Screws.png" height = "60" alt="Image of M2 6mm Screws" /> | Amazon | 14 |
-| 27.   | M2 F2M Spacers 5mm | <img src="./M2 5 Spacers.png" height = "60" alt="Image of M2 5mm Spacers" /> | Amazon | 5 |
-| 28.   | M2 Hex Nut | <img src="./M2 Nuts.png" height = "60" alt="Image of M2 Hex Nuts" /> | Amazon | 14 |
-| 29.   | Zip Ties | <img src="./zip ties.png" height = "60" alt="Image of Zip Ties" /> | Amazon | 2 |
-| 30.   | L Brackets | <img src="./LShape.jpg" height = "60" alt="Image of L Brackets" /> | Amazon | 2 |
-| 31.   | Small Funnel | <img src="./Funnel.png" height = "60" alt="Image of Funnel" /> | Amazon | 1 |
-| 32.   | Wtaer Reservoir | <img src="./Funnel.png" height = "60" alt="Image of Funnel" /> | Jimbos | 1 |
+| 1.    | Aruino Uno R3 | <img src="./Images/ArduinoUnoR3.jpg" height="120" alt="Image of Arduino Uno R3" /> | RobotShop | 1 | 
+| 2.    | Grove Base Shield | <img src="./Images/Grove BS.jpg" height = "120" alt="Image of Grove Base Shield" /> | Seeed Studio | 1 | 
+| 3.    | Acrylic 8''x10'' sheet |<img src="./Images/Acrylic.jpg" height = "60" alt="Image of Acrylic Sheet" /> | Amazon | 1 | 
+| 4.    | Acrylic 3.5''x2'' panel |<img src="./Images/Acry2.png" height = "60" alt="Image of Acrylic Panel" /> | Amazon | 1 | 
+| 5.    | Vinyl Sticker Paper |<img src="./Images/Vinyl.png" height = "60" alt="Image of Vinyl Sticker" />| Amazon | 2 | 
+| 6.    | Mini Lamp & Holder|<img src="./Images/MiniBulb.png" height = "60" alt="Image of Mini Bulb" />| Amazon | 1 | 
+| 7.    | 3V AA Battery Holder with Knife Switch |<img src="./Images/BatteryHolder.png" height = "60" alt="Image of Battery Holder" />| Adafruit | 1 | 
+| 8.    | Grove Yellow Blue OLED Display |<img src="./Images/Grove_Display.png" height = "60" alt="Image of Grove OLED Display" /> | Seeed Studio | 1 |
+| 9.    | Grove LED | <img src="./Images/Grove_LED.png" height = "60" alt="Image of Grove LED" /> | Seeed Studio | 1 |
+| 10.    | Grove Buzzer | <img src="./Images/Grove_PB.png" height = "60" alt="Image of Grove Piezo Buzzer" />  | Seeed Studio | 1 |
+| 11.   | Grove Rotary Sensor | <img src="./ImagesGrove_POT.png" height = "60" alt="Image of Grove POT" /> | Seeed Studio | 1 |
+| 12.   | Grove Temperature & Humidity Sensor |  <img src="./Images/Grove_TH.png" height = "60" alt="Image of Grove DHT11" /> | Seeed Studio | 1 |
+| 13.   | Grove Ultrasonic Sensor |  <img src="./Images/Grove_US.png" height = "60" alt="Image of Grove US" /> | Seeed Studio | 1 |
+| 14    | Grove Water Sensor | <img src="./Images/Grove_WS.png" height = "60" alt="Image of Grove Water Sensor" />  | Seeed Studio | 1 |
+| 15.   | Grove Cables | <img src="./Images/Grove Cables.png" height = "60" alt="Image of L Brackets" /> | Seeed Studio | 7 |
+| 16.   | Gikfun Buttons | <img src="./Images/Button.png" height = "60" alt="Image of Button" /> | Amazon | 5 |
+| 17.   | IR Receiver | <img src="./Images/IR_Receiver.png" height = "60" alt="Image of IR Receiver" /> | Adafruit | 1 |
+| 18.   | JUmper Cables | <img src="./Images/M2MCables.png" height = "60" alt="Image of Jumper Cables" /> | Adafruit | 12 |
+| 19.   | 10k Ohm Resistors | <img src="./Images/R10.png" height = "60" alt="Image of 10K Resistor" /> | RobotShop | 5 |
+| 20.   | 330 Ohm Resistors | <img src="./Images/R330.png" height = "60" alt="Image of 330 Resistor" /> | RobotShop | 1 |
+| 21.   | M2 F2M Spacer 15mm | <img src="./Images/M2F2M15.png" height = "60" alt="Image of 15mm Spacer" /> | Amazon | 9 |
+| 22.   | 9V Battery w/ Barrel Jack | <img src="./Images/9VBNJ.png" height = "60" alt="Image of 9V Battery w/ Jack" /> | RobotShop | 1 |
+| 23.   | M2.5 Hex Nut | <img src="./Images/M25.png" height = "60" alt="Image of M2.5 Hex Nut" /> | Amazon | 13 |
+| 24.   | M2.5 F2M Spacer 6mm | <img src="./Images/M25 F2M 6.png" height = "60" alt="Image of M2.5 6mm Spacer" /> | Amazon | 7 |
+| 25.   | M2.5 6mm Screws | <img src="./Images/M2.5 Screws.png" height = "60" alt="Image of M2.5 Screws" /> | Amazon | 7 |
+| 26.   | M2.5 F2M Spacers 25mm | <img src="./Images/M25 F2M 25.png" height = "60" alt="Image of M2.5 25mm Spacer" /> | Amazon | 6 |
+| 27.   | M2 6mm Screws | <img src="./Images/M2 5 Screws.png" height = "60" alt="Image of M2 6mm Screws" /> | Amazon | 14 |
+| 28.   | M2 F2M Spacers 5mm | <img src="./Images/M2 5 Spacers.png" height = "60" alt="Image of M2 5mm Spacers" /> | Amazon | 5 |
+| 29.   | M2 Hex Nut | <img src="./Images/M2 Nuts.png" height = "60" alt="Image of M2 Hex Nuts" /> | Amazon | 14 |
+| 30.   | Zip Ties | <img src="./Images/zip ties.png" height = "60" alt="Image of Zip Ties" /> | Amazon | 2 |
+| 31.   | L Brackets | <img src="./Images/LShape.jpg" height = "60" alt="Image of L Brackets" /> | Amazon | 2 |
+| 32.   | Small Funnel | <img src="./Images/Funnel.png" height = "60" alt="Image of Funnel" /> | Amazon | 1 |
+| 33.   | Water Reservoir | <img src="./Images/Water_Reservoir.jpg" height = "60" alt="Image of Water Reservoir" /> | Supplies Store | 1 |
+| 34.   | Kit Pack | <img src="./Images/Kit Pack.png" height = "60" alt="Image of Kit Pack" /> | Supplies Store | 1 |
 
 Notes:
 1. The Grove components came with the Grove Cables (4 wire cable - red for vcc, black for ground, yellow for signal, white for signal or no connection).
@@ -61,7 +63,7 @@ It was important to have all components assembled together so students had an or
 
 Below are images of a printed layout. This allowed easy drilling of holes. A 3.5in x 2.5 in acrylic panel was used for the installing the Ultrasonic Sensor.
 
-<img src="./USLayout1.jpg" width="240" alt="Image of US Board Layout" /> <img src="./ArduinoLayout.jpg" width="480" alt="Image of Acrylic Board Layout" /> 
+<img src="./Images/USLayout1.jpg" width="240" alt="Image of US Board Layout" /> <img src="./ArduinoLayout.jpg" width="480" alt="Image of Acrylic Board Layout" /> 
 
 The Acrylic Board housed all the componenets:
 * Arduino Uno R3
@@ -87,7 +89,7 @@ Other sensors (POT, DHT11 sensors) were connected using M2+6 5mm standoffs and s
 
 The 9V battery is secured using 2 zip ties.
 
-<img src="./Acrylic_Board.jpg" alt="Image of Acrylic Board" />
+<img src="./Images/Acrylic_Board.jpg" alt="Image of Acrylic Board" />
 
 ## 2. Basic Circuits
 I started the camp by teaching the students circuit basics starting with a lamp, battery and switch.
@@ -132,21 +134,13 @@ A Grove Base Shield and Grove Components were used for the rest of the camp. Thi
 
 The Grove Shield is mounted on top of the Arduino UNO R3 and Grove components are connected to the shield through Digitial, Analog and I2C ports through a 4 wire Grove Cable. There is no need to worry about power, ground, pull up resistors etc.
 
-
-The Grove Shield is pictured below along with an Arduino UNO R3 Board.
-
-<img src="./ArduinoUnoR3.jpg" height="240" alt="Image of Arduino Uno R3" /> 
-
-Below picture shows the different components. The Grove components are connected to the Grove Shield. The Grove Shield also exposes the Arduino Headers allowing the buttons to be connected in a traditional manner on a breadboard.
+The Grove Shield also exposes the Arduino Headers allowing the buttons to be connected in a traditional manner on a breadboard.
 
 ### a). Actuators or Output Devices:
 The micro-controller uses these to initiate specific actions e.g. display something, alter the state of LED or emit a tone.
 
-
-
 ### b). Sensors or Input Devices:
 The micro controller uses these to gets inputs from the user or environment e.g. POT angle,  temperature, humidity, level sensor is submerged in water and distance to an obstacle. Based on these inputs, the micro controller can be programmed to send outputs to actuators.
-
 
 ### c) Circuit Diagram for all the components
 
@@ -154,7 +148,7 @@ The circuit diagram shows how the various components are connected. The Buttons 
 
 The Grove components are connected to the Grove Shield Ports which are shown in the circuit diagram:
 
-<img src="./Circuit_Diagram.jpg" alt="Image of Circuit Diagram" /> 
+<img src="./Images/Circuit_Diagram.jpg" alt="Image of Circuit Diagram" /> 
 
 
 ## 5. Piano
@@ -182,7 +176,7 @@ Learn more about this project in [this video](https://www.youtube.com/watch?v=-I
 ## 6. Metronome
 In this project, the students created a metronome. A metronome is used in musical practice as a way to keep the beat, or tempo. An image of a metronome is shown below.
 
-![alt text](https://images.squarespace-cdn.com/content/v1/5a04b91b914e6b6222be0e26/1551373680221-G9ZWBOR9HGR3H1162KW7/Seiko-Quartz-Metronome.jpg?format=400w)
+<img src="./Images/Metronome.jpg" height="120" alt="Image of Metronome" /> 
 
 The dial shown on this metronome can be used to change the tempo, the numbers at the edge of the dial. The unit of the tempo is BPM, or beats per minute. For example, 60 BPM, means that the metronome will beep and blink 60 times a minute, or once a second.
 

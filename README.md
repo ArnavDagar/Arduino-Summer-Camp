@@ -1,5 +1,5 @@
 # Arduino-Summer-Camp
-In the summer of 2023, I conducted a summer camp to teach students programming and electronics using Arduino and simple components. The camp focused on making real world applications like a five Key Piano, Automatic Piano, Metronome, Weather Station, Range Finder, Collison Alert and Water Overflow Detection systems using a micro controller board (Arduino Uno R3 in our case), sensors like Ultrasonic Sensor, Water Sensor, Potentiometer, and Temperature and Humidity and audio visual actuators or output devices like LEDs, Piezo Buzzer and OLED Display.
+In the summer of 2023, I conducted a  camp to teach students programming and electronics using Arduino and simple components. The camp focused on making real world applications like a five Key Piano, Automatic Piano, Metronome, Weather Station, Range Finder, Collison Alert and Water Overflow Detection systems using a micro controller board (Arduino Uno R3 in our case), sensors like Ultrasonic Sensor, Water Sensor, Potentiometer, and Temperature and Humidity and audio visual actuators or output devices like LEDs, Piezo Buzzer and OLED Display.
 
 I designed the curriculum for middle to high schoolers with no prior experience in coding or electronics. I selected the components, designed a kit, developed lesson plans and conudcted the camp at Casa de Amistad in San Diego. The students were very engaged and had a fun learning and enriching experience.
 
@@ -13,25 +13,34 @@ Learn more about each project on my [youtube channel](https://www.youtube.com/ch
 |:-----:|:-----:|:------:|:-------------:|:----:|
 | 1.    | Aruino Uno R3 | <img src="./ArduinoUnoR3.jpg" height="120" alt="Image of Arduino Uno R3" /> | RobotShop | 1 | 
 | 2.    | Grove Base Shield | <img src="Grove BS.jpg" height = "120" alt="Image of Grove Base Shield" /> | Seeed Studio | 1 | 
-| 3.    | Acrylic 8''x10'' sheet |<img src="./Acrylic.jpg" height = "120" alt="Image of Acrylic Sheet" /> | Amazon | 1 | 
-| 4.    | Acrylic 3.5''x2'' panel |<img src="./Acry2.png" height = "120" alt="Image of Acrylic Panel" /> | Amazon | 1 | 
-| 5.    | Vinyl Sticker Paper |<img src="./Vinyl.png" height = "120" alt="Image of Vinyl Sticker" />| Amazon | | 
-| 6.    | Mini Lamp & Holder|<img src="./MiniBulb.png" height = "120" alt="Image of Mini Bulb" />| Amazon | | 
-| 7.    | 3V AA Battery Holder with Knife Switch |<img src="./BatteryHolder.png" height = "120" alt="Image of Battery Holder" />| Adafruit | | 
-| 8.    | Grove Yellow Blue OLED Display |<img src="./Grove_Display.png" height = "120" alt="Image of Grove OLED Display" /> | Amazon | |
-| 9.    | Grove LED | <img src="Grove_LED.png" height = "120" alt="Image of Grove LED" /> | Amazon | |
-| 10.    | Grove Buzzer | <img src="./Grove_PB.png" height = "120" alt="Image of Grove Piezo Buzzer" />  | Amazon | |
-| 11.   | Grove Rotary Sensor | <img src="Grove_POT.png" height = "120" alt="Image of Grove POT" /> | Amazon | |
-| 12.   | Grove Temperature & Humidity Sensor |  <img src="./Grove_TH.png" height = "120" alt="Image of Grove DHT11" /> | Amazon | |
-| 13.   | Grove Ultrasonic Sensor |  <img src="Grove_US.png" height = "120" alt="Image of Grove US" /> | Amazon | |
-| 14    | Grove Water Sensor | <img src="./Grove_WS.png" height = "120" alt="Image of Grove Water Sensor" />  | Amazon | |
-| 15.   | Gikfun Buttons | <img src="./Button.png" height = "120" alt="Image of Button" /> | Amazon | |
-| 16.   | L Brackets | <img src="./LShape.jpg" height = "120" alt="Image of L Brackets" /> | Amazon | |
-| 17.   | Small Funnel | <img src="./Funnel.png" height = "120" alt="Image of Funnel" /> | Amazon | |
-| 18.   | IR Receiver | <img src="./IR_Receiver.png" height = "120" alt="Image of IR Receiver" /> | Adafruit | |
-| 19.   | JUmper Cables | <img src="./M2MCables.png" height = "120" alt="Image of Jumper Cables" /> | Amazon | |
-| 20.   | 10k Ohm Resistors | <img src="./R10.png" height = "120" alt="Image of 10K Resistor" /> | RobotShop | |
-| 21.   | 330 Ohm Resistors | <img src="./R330.png" height = "120" alt="Image of 330 Resistor" /> | RobotShop | |
+| 3.    | Acrylic 8''x10'' sheet |<img src="./Acrylic.jpg" height = "60" alt="Image of Acrylic Sheet" /> | Amazon | 1 | 
+| 4.    | Acrylic 3.5''x2'' panel |<img src="./Acry2.png" height = "60" alt="Image of Acrylic Panel" /> | Amazon | 1 | 
+| 5.    | Vinyl Sticker Paper |<img src="./Vinyl.png" height = "60" alt="Image of Vinyl Sticker" />| Amazon | | 
+| 6.    | Mini Lamp & Holder|<img src="./MiniBulb.png" height = "60" alt="Image of Mini Bulb" />| Amazon | | 
+| 7.    | 3V AA Battery Holder with Knife Switch |<img src="./BatteryHolder.png" height = "60" alt="Image of Battery Holder" />| Adafruit | | 
+| 8.    | Grove Yellow Blue OLED Display |<img src="./Grove_Display.png" height = "60" alt="Image of Grove OLED Display" /> | Amazon | |
+| 9.    | Grove LED | <img src="Grove_LED.png" height = "60" alt="Image of Grove LED" /> | Amazon | |
+| 10.    | Grove Buzzer | <img src="./Grove_PB.png" height = "60" alt="Image of Grove Piezo Buzzer" />  | Amazon | |
+| 11.   | Grove Rotary Sensor | <img src="Grove_POT.png" height = "60" alt="Image of Grove POT" /> | Amazon | |
+| 12.   | Grove Temperature & Humidity Sensor |  <img src="./Grove_TH.png" height = "60" alt="Image of Grove DHT11" /> | Amazon | |
+| 13.   | Grove Ultrasonic Sensor |  <img src="Grove_US.png" height = "60" alt="Image of Grove US" /> | Amazon | |
+| 14    | Grove Water Sensor | <img src="./Grove_WS.png" height = "60" alt="Image of Grove Water Sensor" />  | Amazon | |
+| 15.   | Gikfun Buttons | <img src="./Button.png" height = "60" alt="Image of Button" /> | Amazon | |
+| 16.   | L Brackets | <img src="./LShape.jpg" height = "60" alt="Image of L Brackets" /> | Amazon | |
+| 17.   | Small Funnel | <img src="./Funnel.png" height = "60" alt="Image of Funnel" /> | Amazon | |
+| 18.   | IR Receiver | <img src="./IR_Receiver.png" height = "60" alt="Image of IR Receiver" /> | Adafruit | |
+| 19.   | JUmper Cables | <img src="./M2MCables.png" height = "60" alt="Image of Jumper Cables" /> | Amazon | |
+| 20.   | 10k Ohm Resistors | <img src="./R10.png" height = "60" alt="Image of 10K Resistor" /> | RobotShop | |
+| 21.   | 330 Ohm Resistors | <img src="./R330.png" height = "60" alt="Image of 330 Resistor" /> | RobotShop | |
+| 22.   | M2 F2M Spacer 15mm | <img src="./M2F2M15.png" height = "60" alt="Image of 15mm Spacer" /> | RobotShop | |
+| 23.   | M2.5 Hex Nut | <img src="./M25.png" height = "60" alt="Image of M2.5 Hex Nut" /> | RobotShop | |
+| 24.   | M2.5 F2M Spacer 6mm | <img src="./M25 F2M 6.png" height = "60" alt="Image of M2.5 6mm Spacer" /> | RobotShop | |
+| 25.   | M2.5 6mm Screws | <img src="./M2.5 Screws.png" height = "60" alt="Image of M2.5 Screws" /> | RobotShop | |
+| 26.   | M2.5 F2M Spacers 25mm | <img src="./M25 F2M 25.png" height = "60" alt="Image of M2.5 25mm Spacer" /> | RobotShop | |
+| 27.   | M2 6mm Screws | <img src="./M2 5 Screws.png" height = "60" alt="Image of M2 6mm Screws" /> | RobotShop | |
+| 28.   | M2 F2M Spacers 5mm | <img src="./M2 5 Spacers.png" height = "60" alt="Image of M2 5mm Spacers" /> | RobotShop | |
+| 29.   | M2 Hex Nut | <img src="./M2 Nuts.png" height = "60" alt="Image of M2 Hex Nuts" /> | RobotShop | |
+| 30.   | Zip Ties | <img src="./zip ties.png" height = "60" alt="Image of Zip Ties" /> | RobotShop | |
 
 Notes:
 1. The Grove components came with the Grove Cables (4 wire cable - red for vcc, black for ground, yellow for signal, white for signal or no connection).

@@ -31,24 +31,24 @@ Learn more about each project on my [youtube channel](https://www.youtube.com/ch
 | 18.   | JUmper Cables | <img src="./M2MCables.png" height = "60" alt="Image of Jumper Cables" /> | Adafruit | 12 |
 | 19.   | 10k Ohm Resistors | <img src="./R10.png" height = "60" alt="Image of 10K Resistor" /> | RobotShop | 5 |
 | 20.   | 330 Ohm Resistors | <img src="./R330.png" height = "60" alt="Image of 330 Resistor" /> | RobotShop | 1 |
-| 21.   | M2 F2M Spacer 15mm | <img src="./M2F2M15.png" height = "60" alt="Image of 15mm Spacer" /> | Amazon | |
-| 22.   | M2.5 Hex Nut | <img src="./M25.png" height = "60" alt="Image of M2.5 Hex Nut" /> | Amazon | |
-| 23.   | M2.5 F2M Spacer 6mm | <img src="./M25 F2M 6.png" height = "60" alt="Image of M2.5 6mm Spacer" /> | Amazon | |
-| 24.   | M2.5 6mm Screws | <img src="./M2.5 Screws.png" height = "60" alt="Image of M2.5 Screws" /> | Amazon | |
-| 25.   | M2.5 F2M Spacers 25mm | <img src="./M25 F2M 25.png" height = "60" alt="Image of M2.5 25mm Spacer" /> | Amazon | |
-| 26.   | M2 6mm Screws | <img src="./M2 5 Screws.png" height = "60" alt="Image of M2 6mm Screws" /> | Amazon | |
-| 27.   | M2 F2M Spacers 5mm | <img src="./M2 5 Spacers.png" height = "60" alt="Image of M2 5mm Spacers" /> | Amazon | |
-| 28.   | M2 Hex Nut | <img src="./M2 Nuts.png" height = "60" alt="Image of M2 Hex Nuts" /> | Amazon | |
+| 21.   | M2 F2M Spacer 15mm | <img src="./M2F2M15.png" height = "60" alt="Image of 15mm Spacer" /> | Amazon | 9 |
+| 22.   | M2.5 Hex Nut | <img src="./M25.png" height = "60" alt="Image of M2.5 Hex Nut" /> | Amazon | 13 |
+| 23.   | M2.5 F2M Spacer 6mm | <img src="./M25 F2M 6.png" height = "60" alt="Image of M2.5 6mm Spacer" /> | Amazon | 7 |
+| 24.   | M2.5 6mm Screws | <img src="./M2.5 Screws.png" height = "60" alt="Image of M2.5 Screws" /> | Amazon | 7 |
+| 25.   | M2.5 F2M Spacers 25mm | <img src="./M25 F2M 25.png" height = "60" alt="Image of M2.5 25mm Spacer" /> | Amazon | 6 |
+| 26.   | M2 6mm Screws | <img src="./M2 5 Screws.png" height = "60" alt="Image of M2 6mm Screws" /> | Amazon | 14 |
+| 27.   | M2 F2M Spacers 5mm | <img src="./M2 5 Spacers.png" height = "60" alt="Image of M2 5mm Spacers" /> | Amazon | 5 |
+| 28.   | M2 Hex Nut | <img src="./M2 Nuts.png" height = "60" alt="Image of M2 Hex Nuts" /> | Amazon | 14 |
 | 29.   | Zip Ties | <img src="./zip ties.png" height = "60" alt="Image of Zip Ties" /> | Amazon | 2 |
 | 30.   | L Brackets | <img src="./LShape.jpg" height = "60" alt="Image of L Brackets" /> | Amazon | 2 |
 | 31.   | Small Funnel | <img src="./Funnel.png" height = "60" alt="Image of Funnel" /> | Amazon | 1 |
-| 32.   | Wtaer Reservoir | <img src="./Funnel.png" height = "60" alt="Image of Funnel" /> | Amazon | 1 |
+| 32.   | Wtaer Reservoir | <img src="./Funnel.png" height = "60" alt="Image of Funnel" /> | Jimbos | 1 |
 
 Notes:
 1. The Grove components came with the Grove Cables (4 wire cable - red for vcc, black for ground, yellow for signal, white for signal or no connection).
 2. An inkject Epson printer was used for printing on the Vinyl Stickers to scale at 200 dpi
 3. Fiskars cutting tool was used to cut the printed vinyl sticker precisely
-4. A drill with 2mm, 2.4mm and 2.9mm drill bits was used to make holes in the Acrylic
+4. A drill with 2mm, 2.4mm, 2.9 mm and 5.4 mm drill bits was used to make holes in the Acrylic
 5. A soldering iron was used to make slots and holes in the platic water reservoir
 6. All components were collated in a plastic container to hand to each student
 
@@ -77,7 +77,7 @@ The Acrylic Board housed all the componenets:
 * Grove Ultrasonic Ranger
 * Grove Water Sensor
 
-The Aruino Uno R3 is attached to the board using M2.5+6 5mm standoffs and M2.5 screws and nuts. The breadboard is pasted on the board. 
+The Aruino Uno R3 is attached to the board using M2.5+6 5mm standoffs or spacers and M2.5 screws and nuts. The breadboard is pasted on the board. 
 
 The water sensor was installed on a plastic water reservoir. Using a soldering iron on a plastic box with lid, I cut out a slot for water sensor and a hole for a funnel to add water. 
 
@@ -85,7 +85,7 @@ Ultrasonic sensor was installled on the small panel using M2.5+6 5mm standoffs, 
 
 Other sensors (POT, DHT11 sensors) were connected using M2+6 5mm standoffs and screws.  The actuators (OLED display, LED, Buzzer) were connected using M2+6 10mm standoffs. The acrylic board used a stand made from M2.5+6 25mm standoffs and nuts.
 
-The majority of these parts are attached to the board via standoffs, screws, and nuts. I drilled holes onto the acrylic board based on an outline I created from a python script. The Water Sensor, Breadboard, and 9V Battery are the only parts not connected via standoffs. The Ultrasonic Ranger is attached using a seperate acrylic board installed perpendicular to make it easier for the students to test out said sensor. 
+The 9V battery is secured using 2 zip ties.
 
 <img src="./Acrylic_Board.jpg" alt="Image of Acrylic Board" />
 

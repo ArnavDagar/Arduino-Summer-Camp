@@ -92,13 +92,12 @@ The 9V battery is secured using 2 zip ties.
 <img src="./Images/Acrylic_Board.jpg" alt="Image of Acrylic Board" />
 
 ## 2. Basic Circuits
-I started the camp by teaching the students circuit basics starting with a lamp, battery and switch.
+I started the camp by teaching the students circuit basics starting with a lamp, battery and switch. We installed a Lamp and used a 3V battery holder with switch to turn the Lamp on and off.
+
 Then we went through how to use a breadboard to assemnle circuits
 * Turning ON and LED on the Breadboard
 * Using a potentiometer to change the brightness of the LED
 * Using a button to turn the LED ON and OFF
-
-We also installed the Lamp. We used a 3V battery holder with switch to turn the Lamp on and off.
 
 Learn more about these basics in [this video](https://www.youtube.com/watch?v=bQS-vkHR7F8&)
 
@@ -128,7 +127,7 @@ We also discussed PWM Pins. Learn more about PWM Pins in [this video](https://ww
 The students used a Button with a pull up resistor to turn an LED ON and OFF. 
 
 
-## 2. Grove Base Shield and Grove Components
+## 4. Grove Base Shield and Grove Components
 
 A Grove Base Shield and Grove Components were used for the rest of the camp. This ensured faster, error free circuit assembly to allow the students to focus on applications and programming.
 
@@ -150,9 +149,39 @@ The Grove components are connected to the Grove Shield Ports which are shown in 
 
 <img src="./Images/Circuit_Diagram.jpg" alt="Image of Circuit Diagram" /> 
 
+## 5. Operating the Sensors and Actuators
+Before we can use the sensors and actuators to make interesting real world applications, we need to get them working with the relevant libraries and test their individual functionality. 
 
-## 5. Piano
-The following projects were used to teach the students how to use a buzzer to emit specific tones similar to a piano in different projects.
+### a). Buzzer
+The tone() function is used to emit a tone of specifc frequency for a specifc length of time. Note that delay() runs concurrently with tone() and so, we need to choose the time with tone() and delay() appropriate.
+
+Learn more on how to program the buzzer in this vido
+
+### b). OLED Display
+For the OLED display, we will use the u8_g2 library to display text and graphics using the I2C interface. Learn how to display text and glyphs (e.g. snowman) in this video.
+
+### c). POT
+The POT values are ready using analogRead(). Arduino has a 10 bit ADC and so the values range from 0-1023. The values read from the POT can be for exmample used to control the brigtness of a LED. This is done through analogWrite(). Arduino simulates analog through dutycyling on PWM Pins.
+Learn more about how to use a pot with arduino in this video.
+
+### d). DHT 11 Temperature & Humidity Sensor
+We use the Adafruit DHT11 library to read temperature and humidity values from the DHT11 sensor. A quick way to test the functionality of the sensor is to see the values returned on the serial monitor.
+
+Learn more about how to program the DHT11 sensor in this video
+
+### e). Ultrasonic Sensor
+An ultrasonic sensor measures the distance to obsatcle by using the round trip time of a sound wave traveling to the obstacle and its echo coming back to the sensor. For this sensor, we use the Grove Range Finder library.
+
+Learn more about how to program the Ultrasonic sensor in this video
+
+### f). Water Sensor
+The resistance of the water sensor changes when it has water on it. We use the sensor on Anlog interface and using analogRead() get a sense of how much of the sensor is submerged in water.
+
+Learn more about how to program the Water sensor in this video
+
+
+## 6. Piano
+Now that we know how to program and read inputs from sensors and output to actuators, we are ready to make some reak world interesting applications. The first is how we can use the Buzzer to play keys of a piano.
 
 ### a). Five Key Piano
 In this project, the students created a mini, portable piano. The following components were used in the project:
@@ -173,14 +202,14 @@ Note: Changing the tempo in the middle of the piece will automatically restart t
 Learn more about this project in [this video](https://www.youtube.com/watch?v=-I5X-YtkoWw&).
 
 
-## 6. Metronome
+## 7. Metronome
 In this project, the students created a metronome. A metronome is used in musical practice as a way to keep the beat, or tempo. An image of a metronome is shown below.
 
 <img src="./Images/Metronome.jpg" height="120" alt="Image of Metronome" /> 
 
 The dial shown on this metronome can be used to change the tempo, the numbers at the edge of the dial. The unit of the tempo is BPM, or beats per minute. For example, 60 BPM, means that the metronome will beep and blink 60 times a minute, or once a second.
 
-The students will use the following components to create the metronome:
+The students used the following components to create the metronome:
 * Buzzer: Will be used to emit the beep
 * LED: Will be used to blink in sync with with the beep
 * OLED: WIll be used to display the BPM
@@ -190,7 +219,7 @@ We created this metronome to mimic the one in the image: therefore the BPM will 
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=qt-YgZJz8uY).
 
-## 7. Ultrasonic Ranger Projects
+## 8. Ultrasonic Ranger Projects
 The following 2 projects were created using the Ultrasonic Ranger. The Ultrasonic Ranger can return a distance in centimeters or inches, and we can do different things with this information.
 
 ### a). Range Finder
@@ -209,7 +238,7 @@ Modern cars have different ways to detect if the car is approaching an obstacle.
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=lpBptqLrOXk).
 
-## 8. Weather Station
+## 9. Weather Station
 We will use the following components:
 * Grove Temperature and Humidity Sensor: Will read out the temperature and humidity using the DHT 11 Sensor installed
 * OLED Display: Will print out the temperature and humidity given from the TH Sensor
@@ -217,20 +246,20 @@ This acts as a simple thermostat - there many different applications to this! No
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=xR2um3CB-e0&).
 
-## 9. Water Overflow Detector
-Our final propject before we put everything together will be a Water Overflow Detector. For this project, I devised a container with a lid (pictured below) such that the Water Sensor can easily fit in the slot, and a funnel can be placed in the circular hole to increase the water level. 
+## 10. Water Overflow Detector
+Our final propject before we put everything together will be a Water Overflow Detector. For this project, I devised a container with a lid such that the Water Sensor can easily fit in the slot, and a funnel can be placed in the circular hole to increase the water level. 
 
 The components used in this project are as follow:
-* Watter Sensor: Returns the level of water touching the sensor
+* Water Sensor: Returns the level of water touching the sensor
 * OLED Display: Displays either Clear, Caution, Danger, or Critical
 * Buzzer: Beeps at different frequencies depending on the water level
 * LED: Blinks at different frequencies depending on the water level
+* Water Reservoir with slot for water sensor and a hole for funnerl for pouring in water
 
 Learn more about this project in [this video](https://www.youtube.com/watch?v=SfWMD1pfpyw&).
 
-The Grove Water Sensor and the container used for testing are pictured below.
 
-## 10. Final Project 
+## 11. Final Project 
 In the final project, the students combined all the previous project code into one final script. This was implemented such that even if the students do not have access to the code in the future, they can still run all their projects on the boards, since the Arduino will automatically run the last project that was loaded onto the Arduino once connected to power (hence why we initally installed the 9V battery on the board, allowing the students to power on the Arduino whenever they wish). 
 
 This project cycles through each of the projects one at a time when the user presses the red and black buttons simulatenously. This was a good project to learn switch case constructs.

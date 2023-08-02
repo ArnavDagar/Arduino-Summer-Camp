@@ -56,10 +56,8 @@ Notes:
 
 
 
-## 1. Board Creation
+## 2. Board Creation
 It was important to have all components assembled together so students had an organized workspace and could appreciate what is involved in making real applications and not just a quick demo. For this, I designed a layout in python (Arduino Project Layout.py) of a 8x10 inchees acrylic board. It was printed on vinyl sticker and then pasted on acrylic sheets.
-
-
 
 Below are images of a printed layout. This allowed easy drilling of holes. A 3.5in x 2.5 in acrylic panel was used for the installing the Ultrasonic Sensor.
 
@@ -91,7 +89,7 @@ The 9V battery is secured using 2 zip ties.
 
 <img src="./Images/Acrylic_Board.jpg" alt="Image of Acrylic Board" />
 
-## 2. Basic Circuits
+## 3. Basic Circuits
 I started the camp by teaching the students circuit basics starting with a lamp, battery and switch. We installed a Lamp and used a 3V battery holder with switch to turn the Lamp on and off.
 
 Then we went through how to use a breadboard to assemnle circuits
@@ -117,7 +115,7 @@ The students created a program to blink the LED ON and OFF. The students learned
 * delay(ms): Wait for amount of milliseconds specified (Note: tone function runs concurrently).
 
 ### b). POT
-The students learned how to control and LED using a Potentiometer. T he students learned about the following new functions:
+The students learned how to control and LED using a Potentiometer. The students learned about the following new functions:
 * analogRead(pin): Read the value of analog pin (A0, A1, etc.). Value will be from 0-1023
 * analogWrite(pin, value): Writes an analog value to a pin. This value should be between 0 and 255.
 
@@ -150,34 +148,35 @@ The Grove components are connected to the Grove Shield Ports which are shown in 
 <img src="./Images/Circuit_Diagram.jpg" alt="Image of Circuit Diagram" /> 
 
 ## 5. Operating the Sensors and Actuators
-Before we can use the sensors and actuators to make interesting real world applications, we need to get them working with the relevant libraries and test their individual functionality. 
+Before we can use the sensors and actuators to make interesting real world applications, we need to get them working with the relevant libraries and test each component's individual functionality.
 
 ### a). Buzzer
 The tone() function is used to emit a tone of specifc frequency for a specifc length of time. Note that delay() runs concurrently with tone() and so, we need to choose the time with tone() and delay() appropriate.
 
-Learn more on how to program the buzzer in this vido
+Learn more on how to program the buzzer in [this video](https://www.youtube.com/watch?v=_wdFPNxMD30).
+The code is in [Buzzer.ino](src/Buzzer.ino).
 
 ### b). OLED Display
-For the OLED display, we will use the u8_g2 library to display text and graphics using the I2C interface. Learn how to display text and glyphs (e.g. snowman) in this video.
+For the OLED display, we will use the u8g2 library to display text and graphics using the I2C interface. Learn how to display glyphs in [this video](https://www.youtube.com/watch?v=BqO59RuiGiI). The code is in [OLED.ino](src/OLED.ino)
 
 ### c). POT
 The POT values are ready using analogRead(). Arduino has a 10 bit ADC and so the values range from 0-1023. The values read from the POT can be for exmample used to control the brigtness of a LED. This is done through analogWrite(). Arduino simulates analog through dutycyling on PWM Pins.
-Learn more about how to use a pot with arduino in this video.
+Learn more about how to use a Potentiometer with the Arduino in [this video](https://www.youtube.com/watch?v=eoUUbpLZECs) until timestamp 7:41. The code can be found in [Pot.ino](src/Pot.ino).
 
 ### d). DHT 11 Temperature & Humidity Sensor
 We use the Adafruit DHT11 library to read temperature and humidity values from the DHT11 sensor. A quick way to test the functionality of the sensor is to see the values returned on the serial monitor.
 
-Learn more about how to program the DHT11 sensor in this video
+Learn more about how to program the DHT11 sensor in [this video](https://www.youtube.com/watch?v=50Wbibqyy_c). The code is in [THSensor.ino](src/THSensor.ino).
 
 ### e). Ultrasonic Sensor
 An ultrasonic sensor measures the distance to obsatcle by using the round trip time of a sound wave traveling to the obstacle and its echo coming back to the sensor. For this sensor, we use the Grove Range Finder library.
 
-Learn more about how to program the Ultrasonic sensor in this video
+Learn more about how to program the Ultrasonic sensor in [this video](https://www.youtube.com/watch?v=XCEobsngXzM). The code can be found in [Ultrasonic_Sensor.ino](src/Ultrasonic_Sensor.ino).
 
 ### f). Water Sensor
-The resistance of the water sensor changes when it has water on it. We use the sensor on Anlog interface and using analogRead() get a sense of how much of the sensor is submerged in water.
+The resistance of the water sensor changes when it has water on it. We use the sensor on Anlog interface and using analogRead() get a sense of how much of the sensor is submerged in water. Note that the salinity of the water affects the resistance read on the water sensor.
 
-Learn more about how to program the Water sensor in this video
+Learn more about how to program the Water sensor in [this video](https://www.youtube.com/watch?v=VwHm7wLcO_w). The code is in [Water.ino](src/Water.ino).
 
 
 ## 6. Piano
@@ -188,7 +187,7 @@ In this project, the students created a mini, portable piano. The following comp
 * 5 Buttons: Connected on the breadboard, each button will represent a key on the piano, ranging from Middle C (256 Hz frequency) to G (~392 Hz frequency)
 * Buzzer: Will be used to emit toness of said frequencies
 
-Learn more about this project in [this video](https://www.youtube.com/watch?v=8YZ9XIKRaRU&).
+Learn more about this project in [this video](https://www.youtube.com/watch?v=8YZ9XIKRaRU&). The code for the 5 Key Piano is in [Piano.ino](src/Piano.ino).
 
 
 ### b). Auto Piano
@@ -199,7 +198,7 @@ In this project, the students set up their board such that it played can play of
 
 Note: Changing the tempo in the middle of the piece will automatically restart the piece.
 
-Learn more about this project in [this video](https://www.youtube.com/watch?v=-I5X-YtkoWw&).
+Learn more about this project in [this video](https://www.youtube.com/watch?v=-I5X-YtkoWw&). The code is in [Auto_Piano2.ino](src/Auto_Piano2.ino).
 
 
 ## 7. Metronome
@@ -212,12 +211,12 @@ The dial shown on this metronome can be used to change the tempo, the numbers at
 The students used the following components to create the metronome:
 * Buzzer: Will be used to emit the beep
 * LED: Will be used to blink in sync with with the beep
-* OLED: WIll be used to display the BPM
-* Potentiometer: WIll be used to change the tempo of the metronome
+* OLED: Will be used to display the BPM
+* Potentiometer: Will be used to change the tempo of the metronome
 
 We created this metronome to mimic the one in the image: therefore the BPM will range from 40 BPM to 208 BPM.
 
-Learn more about this project in [this video](https://www.youtube.com/watch?v=qt-YgZJz8uY).
+Learn more about this project in [this video](https://www.youtube.com/watch?v=qt-YgZJz8uY). The code is in [Metronome.ino](src/Metronome.ino).
 
 ## 8. Ultrasonic Ranger Projects
 The following 2 projects were created using the Ultrasonic Ranger. The Ultrasonic Ranger can return a distance in centimeters or inches, and we can do different things with this information.
@@ -227,7 +226,7 @@ A range finder is commonly used in golf to determine how far away the hole is. T
 * Ultrasonic Ranger: Returned distance to nearest obstacle
 * OLED Display: Prints out this value
 
-Learn more about this project in [this video](https://www.youtube.com/watch?v=FXLg-NOD_yA).
+Learn more about this project in [this video](https://www.youtube.com/watch?v=FXLg-NOD_yA). The code can be found in [RangeFinder.ino](src/RangeFinder.ino).
 
 ### b). Collision Alert
 Modern cars have different ways to detect if the car is approaching an obstacle. We will be implmeneting a simple Collision Alert in this program using the Ultrasonic Sensor. We will use the following parts:
@@ -236,7 +235,7 @@ Modern cars have different ways to detect if the car is approaching an obstacle.
 * Buzzer: Beeps at certain BPM depending on alert and distance
 * LED: Blinks at certain speed depending on alert and distance
 
-Learn more about this project in [this video](https://www.youtube.com/watch?v=lpBptqLrOXk).
+Learn more about this project in [this video](https://www.youtube.com/watch?v=lpBptqLrOXk). The code is in [CollisionAlert.ino](src/CollisionAlert.ino).
 
 ## 9. Weather Station
 We will use the following components:
@@ -244,7 +243,7 @@ We will use the following components:
 * OLED Display: Will print out the temperature and humidity given from the TH Sensor
 This acts as a simple thermostat - there many different applications to this! Notice how after runnign this code, putting your finger on the sensor will increase the temperature and humidity.
 
-Learn more about this project in [this video](https://www.youtube.com/watch?v=xR2um3CB-e0&).
+Learn more about this project in [this video](https://www.youtube.com/watch?v=xR2um3CB-e0&). The Weather Station can be found in [WeatherStation2.ino](src/WeatherStation2.ino).
 
 ## 10. Water Overflow Detector
 Our final propject before we put everything together will be a Water Overflow Detector. For this project, I devised a container with a lid such that the Water Sensor can easily fit in the slot, and a funnel can be placed in the circular hole to increase the water level. 
@@ -254,9 +253,9 @@ The components used in this project are as follow:
 * OLED Display: Displays either Clear, Caution, Danger, or Critical
 * Buzzer: Beeps at different frequencies depending on the water level
 * LED: Blinks at different frequencies depending on the water level
-* Water Reservoir with slot for water sensor and a hole for funnerl for pouring in water
+* Water Reservoir with slot for water sensor and a hole for funnel for pouring in water
 
-Learn more about this project in [this video](https://www.youtube.com/watch?v=SfWMD1pfpyw&).
+Learn more about this project in [this video](https://www.youtube.com/watch?v=SfWMD1pfpyw&). This code is in [WaterOverflow.ino](src/WaterOverflow.ino)
 
 
 ## 11. Final Project 
@@ -264,4 +263,4 @@ In the final project, the students combined all the previous project code into o
 
 This project cycles through each of the projects one at a time when the user presses the red and black buttons simulatenously. This was a good project to learn switch case constructs.
 
-Learn more about this project in [this video](https://www.youtube.com/watch?v=z6CdSy7QxXw&).
+Learn more about this project in [this video](https://www.youtube.com/watch?v=z6CdSy7QxXw&). The Final Project code can be found in [FinalProject.ino](src/FinalProject.ino).

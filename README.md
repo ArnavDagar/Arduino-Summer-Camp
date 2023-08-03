@@ -3,6 +3,10 @@ In the summer of 2023, I conducted a  camp to teach students programming and ele
 
 I designed the curriculum for middle to high schoolers with no prior experience in coding or electronics. I selected the components, designed a kit, developed lesson plans and conudcted the camp at Casa de Amistad in San Diego. The students were very engaged and had a fun learning and enriching experience.
 
+<img src="./Images/img1.jpg" height = "120" alt="Camp Image 1" /> <img src="./Images/img2.jpg" height = "120" alt="Camp Image 2" /> <img src="./Images/img3.jpeg" height = "120" alt="Camp Image 3" /><img src="./Images/img4.jpeg" height = "120" alt="Camp Image 4" />
+
+<img src="./Images/img5.jpeg" height = "120" alt="Camp Image 5" /><img src="./Images/img6.jpeg" height = "120" alt="Camp Image 6" /><img src="./Images/img7.jpeg" height = "120" alt="Camp Image 7" /><img src="./Images/img8.jpeg" height = "120" alt="Camp Image 8" />
+
 This repostory contains the Code and Explanation for the projects. 
 
 Learn more about each project on my [youtube channel](https://www.youtube.com/channel/UCszrNeQ_xBV6YQfvcIs6uVA).
